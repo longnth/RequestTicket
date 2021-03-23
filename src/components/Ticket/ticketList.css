@@ -1,0 +1,49 @@
+.ticket-list {
+  background-color: #fff;
+  width: 95%;
+  height: 80%;
+  margin: 40px auto;
+}
+
+.ticket-list__header {
+  width: 100%;
+  display: flex;
+  padding: 30px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ticket-list__header .header__search {
+  font-size: large;
+  width: 65%;
+  height: 40px;
+}
+
+.ticket-list__body {
+  width: 100%;
+  text-align: center;
+}
+
+.ticket-list__body table {
+  width: 95%;
+  margin: auto;
+  font-size: large;
+  border: solid 1px rgba(0, 130, 230, 0.1);
+}
+
+.ticket-list__body thead {
+  width: 100%;
+}
+
+.ticket-list__body tr {
+  width: 100%;
+  background-color: rgba(0, 130, 230, 0.1);
+  padding: 10px;
+  height: 50px;
+}
+
+.ticket-list__body .ticket {
+  background-color: #fff;
+  border: none;
+  border-bottom: solid 1px rgba(0, 130, 230, 0.1) !important;
+}

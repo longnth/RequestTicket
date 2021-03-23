@@ -1,0 +1,16 @@
+.not-found {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.comeback {
+  font-weight: bold;
+  color: red;
+}
+
+.comeback:hover {
+  background-color: #fff;
+}
